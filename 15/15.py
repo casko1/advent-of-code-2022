@@ -21,6 +21,7 @@ print(len(s))
 print(f'Part 1: {time.time() - start}')
 
 start = time.time()
+# Initial solution is in 15_p2_brute_force.py
 # + 1 intersection trick
 pos_coef, neg_coef = [], []
 for d in data:
